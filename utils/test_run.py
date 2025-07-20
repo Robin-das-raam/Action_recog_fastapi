@@ -1,7 +1,7 @@
-from action_recog_backend.utils.optimized_action_inference import detect_action
+from optimized_action_inference import detect_action
 
-input_video = "./action_recog_backend/uploads/output_part_4.mp4"
-output_video = "./action_recog_backend/output/output_part_4.1.mp4"
+input_video = "./action_recog_backend/uploads/segment_11.mp4"
+output_video = "./action_recog_backend/output/out_seg_part_11.mp4"
 
 detect_action(input_video, output_video)
 

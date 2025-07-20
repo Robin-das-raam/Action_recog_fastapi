@@ -17,4 +17,4 @@ app.add_middleware(
 app.include_router(routes.router)
 
 # Serve the oputput folde for your annotated videos
-app.mount("/output", StaticFiles(directory="./action_recog_backend/output"),name = "output")
+app.mount("/output", StaticFiles(directory="/home/robinpc/Desktop/FastApi_prac/action_recog_backend/output"),name = "output")
